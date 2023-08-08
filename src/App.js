@@ -39,7 +39,7 @@ function App() {
       setFormErrors({});
       // Perform form submission logic here
       // For example, show success message:
-      setFormSuccess('Form submitted successfully!');
+      setFormSuccess('Successfully!');
       setFormError(null);
       // Or show error message:
       // setFormError('An error occurred while submitting the form.');
