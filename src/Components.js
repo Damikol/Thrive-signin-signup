@@ -144,6 +144,16 @@ ${props =>
  props.signinIn !== true ? `transform: translateX(-100%);` : null}
 `;
 
+export const ErrorMessage = styled.p`
+  color: red;
+  font-size: 14px;
+`;
+
+export const SuccessMessage = styled.p`
+  color: green;
+  font-size: 14px;
+`;
+
 export const Overlay = styled.div`
 background: #1781E3;
 background: -webkit-linear-gradient(to right, #1781E3, #1781E3);
